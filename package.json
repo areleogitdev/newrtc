@@ -1,26 +1,12 @@
 {
-  "name": "peertopeerexample",
-  "version": "1.0.0",
-  "description": "",
-  "main": "client2.js",
-  "dependencies": {
-    "express": "^4.16.2",
-    "websocket": "^1.0.25",
-    "ws": "^3.3.2"
-  },
-  "devDependencies": {},
+  "name": "heroku-node",
+  "description": "Our sample Node to Heroku app",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/areleogitdev/newrtc.git"
-  },
-  "bugs": {
-    "url": "https://github.com/areleogitdev/newrtc/issues"
-  },
-  "homepage": "https://github.com/areleogitdev/newrtc#readme"
+  "dependencies": {
+    "ejs": "~1.0.0",
+    "express": "~4.9.8"
+  }
 }
