@@ -24,7 +24,7 @@ app.listen(app.get('port'), function() {
 var WebSocketServer = require('ws').Server; 
 
 //creating a websocket server at port 1000 
-var wss = new WebSocketServer({port: 9090}); 
+var wss = new WebSocketServer({port: 5000}); 
 
 //all connected to the server users 
 var users = {};
