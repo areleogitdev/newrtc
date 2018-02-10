@@ -5,7 +5,7 @@ app.set('port', (process.env.PORT || 5000));
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(request, response) {
-  response.send('port 1000')
+  response.send('port 9090')
 });
 
 app.get('/index',function(request,response){
@@ -24,7 +24,7 @@ app.listen(app.get('port'), function() {
 var WebSocketServer = require('ws').Server; 
 
 //creating a websocket server at port 1000 
-var wss = new WebSocketServer({port: 1000}); 
+var wss = new WebSocketServer({port: 9090}); 
 
 //all connected to the server users 
 var users = {};
